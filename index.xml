@@ -13,7 +13,9 @@
       <link>https://devblog/post/osxmemorymanipulation/</link>
       <pubDate>Sun, 05 Nov 2023 12:09:57 +0000</pubDate>
       <guid>https://devblog/post/osxmemorymanipulation/</guid>
-      <description>int a = 5; </description>
+      <description>Cool cat for inspiration :) So&amp;hellip; here we go!
+So the objective is to read memory from a process and then modify it. Pretty simple right? I will use C++ for this because it offers many of the low level capabilities that we will need to do this but I am sure you can use your preffered language too.
+Well&amp;hellip; if we want to read memory from a process then we need to have a process running!</description>
     </item>
   </channel>
 </rss>
