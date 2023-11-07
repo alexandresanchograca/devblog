@@ -6,8 +6,18 @@
     <description>Recent content in Posts on Curiosity Kills Boredom</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Nov 2023 12:09:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Nov 2023 18:35:02 +0000</lastBuildDate>
     <atom:link href="https://devblog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hacking a Java Game in OSX</title>
+      <link>https://devblog/post/javagamehack/</link>
+      <pubDate>Tue, 07 Nov 2023 18:35:02 +0000</pubDate>
+      <guid>https://devblog/post/javagamehack/</guid>
+      <description>Hi!
+Recently I adquired a Macbook, so my interest in memory manipulation in OSX obviouvsly spiked.
+Today I will try to hack a game, not any game, but a game that was made by me in Java. This doesn&amp;rsquo;t mean we will use Java for memory manipulation, we will use the superior language obviously. Do i need to say it? Yes, it&amp;rsquo;s C++.
+As a wise man once said, Java is Build once, run everywhere, C++ is build once debug everywhere.</description>
+    </item>
     <item>
       <title>Process memory manipulation in OSX</title>
       <link>https://devblog/post/osxmemorymanipulation/</link>
