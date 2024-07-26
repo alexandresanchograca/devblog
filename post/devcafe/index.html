@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>DevCafe Tech Weekly - Curiosity Kills Boredom</title>
+
+    
+    
+    <meta name="description" content="DevCafe Weekly Nova funcionalidade adicionada aos Sets de Javascript Recentemente, o Javascript introduziu novos métodos para objetos do tipo Set (Mursal, 2024). Estes novos métodos poderão substituir algumas bibliotecas anteriormente utilizadas para o mesmo propósito. Esta evolução é vantajosa, pois além de reduzir a dependência de bibliotecas de terceiros, estas novas funcionalidades são agora suportadas pelos interpretadores de Javascript dos principais navegadores. Estes métodos também podem proporcionar ganhos significativos de desempenho em comparação com a utilização de bibliotecas externas para o mesmo efeito, uma vez que o utilizador não precisará de descarregar código adicional para realizar estas operações, visto que passam a estar nativamente presentes no seu navegador." />
+    <meta name="author" content="" />
+    
+
+    <link href="https://unpkg.com/@master/normal.css" rel="stylesheet">
+    <script src="https://unpkg.com/@master/style@1.5.0"></script>
+    <script src="https://unpkg.com/@master/styles@1.13.0"></script>
+    <script src="https://unpkg.com/master-styles-group"></script>
+    <script src="https://unpkg.com/themes.js"></script>
+    <script>window.themes = window.themes || new window.Themes()</script>
+
+    <style>
+        :root {
+            --font-sans: "Inter var", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        }
+    </style></head>
+<body class="bg:fade-84@dark font:fade-16@dark font:sans">
+    <nav class="w:full h:90 fixed bg:fade-84/.95@dark bg:white z:1000">
+    <div class="
+        h:full
+        w:full
+        max-w:1200
+        mx:auto
+        px:32
+        d:flex
+        align-items:center
+    ">
+        <div>
+            <a href="/" class="mr-3 font:extralight">
+              
+              Curiosity Kills Boredom
+              
+            </a>
+        </div>
+
+        <div class="ml:auto">
+            
+            
+            
+        </div>
+    </div>
+</nav>
+<div class="d:flex flex:column@<=sm pt:90 px:24 jc:center gap:44 word-break:break-word">
+        <div class="max-w:700 w:full box:content-box">
+<article class="box:border-box pt:32">
+    <header class="mb:32">
+        <div class="font:40 font:extrabold">DevCafe Tech Weekly</div>
+        <div class="mt:16 f:fade-60">
+            <time>Jul 20, 2024</time>
+            </div>
+    </header><div class="
+    _:where(a):hover{text-decoration-color:fade}
+    _:where(a){text-decoration:2;underline;fade-10;_text-decoration-color:fade-70@dark}
+    _:where(blockquote){bl:5;solid;fade-76/.1;_bl:5;solid;fade-34/.1@dark}
+    _:where(code){font:90%;_v:middle}
+    _:where(code:not(.highlight_*,pre_*)){p:2;6;_r:4}
+    _:where(del){text-decoration:1;line-through;fade-68;_text-decoration-color:red-64@dark}
+    _:where(figcaption){text:14;_p:10;20;0;_width:fit;_mx:auto;_font:fade-56;_font:fade-57@dark}
+    _:where(h1){font:40;_font:extrabold}
+    _:where(h1,h2,h3)+:where(h1,h2,h3){mt:.5em}
+    _:where(h1,h2,h3,h4,h5,h6){mt:2em}
+    _:where(h2){mb:1em;_font:32}
+    _:where(h3){font:24}
+    _:where(h4){font:20}
+    _:where(h5){font:16}
+    _:where(h6){font:14}
+    _:where(li)::marker{font:fade-44;_font:fade-68@dark}
+    _:where(li){pl:.375em}
+    _:where(mark){text-decoration:1;underline;#fce016;_bg:transparent;_text-decoration-color:rgb(252;224;22/.5)@dark}
+    _:where(p,li){font:fade-76;_font:16;_line-height:1.65;_font:fade-34@dark}
+    _:where(p,pre,blockquote,figure,ul,ol,table){my:1.125em}
+    >:first-child{mt:0!}
+    _:where(pre){p:20;_r:8;_overflow:auto}
+    _:where(pre,code:not(.highlight_*)){bg:fade-2;_bg:fade-92!@dark}
+    _:where(strong,b,a,code:not(.highlight_*),mark,del){font:fade-92;_font:fade-12@dark}
+    _:where(table){width:full;_border-spacing:0}
+    _:where(td){v:baseline}
+    _:where(td,th):first-child{pl:0}
+    _:where(td,th):last-child{pr:0}
+    _:where(td,th){bb:1;solid;fade-92/.06;_p:6;_b:fade-4/.04@dark}
+    _:where(th){font:fade-78;_font:14;_text:left;_font:fade-12@dark}
+    _:where(th,p_code,li_code,a,mark){font:semibold;_font:medium@dark}
+    _:where(ul){list-style-type:disc}
+    _:where(ul,ol,blockquote){pl:1.5em}
+    _:where(video,img){max-width:full}
+    _:where(a,mark){text-underline-offset:3}
+    _:where(hr){h:2;_bg:fade-10;_bg:fade-70@dark;_my:3em}
+"><h1 id="devcafe-weekly">DevCafe Weekly</h1>
+<h3 id="nova-funcionalidade-adicionada-aos-sets-de-javascript">Nova funcionalidade adicionada aos Sets de Javascript</h3>
+<p>Recentemente, o Javascript introduziu novos métodos para objetos do tipo Set (Mursal, 2024). Estes novos métodos poderão substituir algumas bibliotecas anteriormente utilizadas para o mesmo propósito. Esta evolução é vantajosa, pois além de reduzir a dependência de bibliotecas de terceiros, estas novas funcionalidades são agora suportadas pelos interpretadores de Javascript dos principais navegadores.
+Estes métodos também podem proporcionar ganhos significativos de desempenho em comparação com a utilização de bibliotecas externas para o mesmo efeito, uma vez que o utilizador não precisará de descarregar código adicional para realizar estas operações, visto que passam a estar nativamente presentes no seu navegador.</p>
+<p>Os dois métodos mais relevantes introduzidos são o <code>intersection</code> e o <code>union</code>.</p>
+<p><img src="./union_venn.png" alt="intersection javascript method" title="New Intersection Method Javascript"></p>
+<p>O <code>intersection</code> retorna os elementos comuns a ambos os sets:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">setA</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Set</span>([<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">6</span>]);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">setB</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Set</span>([<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">6</span>, <span style="color:#ae81ff">8</span>, <span style="color:#ae81ff">10</span>]);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">intersectionSet</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">setA</span>.<span style="color:#a6e22e">intersection</span>(<span style="color:#a6e22e">setB</span>);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Set {2, 4, 6}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">intersectionSet</span>);
+</span></span></code></pre></div><p>O <code>union</code> retorna todos os elementos de ambos os sets, sem duplicação:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Javascript" data-lang="Javascript"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">setA</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Set</span>([<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">6</span>]);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">setB</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Set</span>([<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">6</span>, <span style="color:#ae81ff">8</span>, <span style="color:#ae81ff">10</span>]);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">unionSet</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">setA</span>.<span style="color:#a6e22e">union</span>(<span style="color:#a6e22e">setB</span>);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Set {1, 2, 3, 4, 5, 6, 8, 10}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">unionSet</span>);
+</span></span></code></pre></div><h3 id="nikita-prokopovs-no-bloat-de-javascript">Nikita Prokopov&rsquo;s no Bloat de Javascript</h3>
+<p>O post no blog de Nikita Prokopov destaca os tamanhos de JavaScript em vários sites e aplicações em 2024. Por exemplo, páginas simples como a Wikipedia usam 0,2 MB de código JavaScript, enquanto páginas mais complexas, como o Slack, podem chegar a 55 MB. Em comparação, a versão original do Doom tinha apenas 2.32 MB, e atualmente, segundo o autor, uma página web tem em média 3 MB de JavaScript.</p>
+<p>Na minha opinião, isso se deve a um paradigma de desenvolvimento comum nos dias de hoje, que assume que os computadores modernos têm muita performance e, portanto, podemos escrever código menos eficiente sem que o utilizador final sinta a diferença. Concordo com esta premissa quando precisamos lançar um produto rapidamente para testar no mercado, mas, a partir do momento em que o mercado valida o produto, e sinaliza através da sua compra que quer que continuamos a desenvolvê-lo, precisamos adotar uma programação mais consciente das consequências de performance.</p>
+<p>É super comum ao desenvolver em javascript em usar métodos como o <code>forEach</code> e <code>for...of</code> para iterar coleções, mas estes métodos podem aumentar o tempo de iteração destes dados significativamente comparado a um <code>for</code> loop tradicional se iterarmos elevados números de dados (Siddiqui, 2022)(Faishal, 2023). Em casos especificos deviamos analisar se a elegibilidade do código é assim tão mais dificil comparado com estes métodos, e se o ganho em performance compensa esta alteração.</p>
+<p>Outra prática comum é utilizar bibliotecas quando apenas precisamos de uma função específica. Isto pode ser aceitável se a biblioteca implementar um mecanismo de tree-shake, mas, se só queremos usar uma funcionalidade simples, não poderíamos desenvolvê-la nós próprios?</p>
+<p>Muitas vezes, ao usar bibliotecas, precisamos aprender a trabalhar com a abstração que elas impõem, e por vezes podemos gastar mais tempo a aprender a trabalhar com a abstração das bibliotecas que implementar a funcionalidade que nós queremos.</p>
+<p>Tudo isto acho que contribui para que um bundle de JavaScript tenha muito mais código do que o estritamente necessário para a aplicação, resultando em que o usuário final tenha de descarregar um bundle de javascript com o tamanho maior, aumentando a latência de um Website ao carregar e por consequencia proporiciona uma pior experiência do utilizador.
+Adotar práticas de desenvolvimento mais conscientes a nível de performance é essencial para mitigar os tamanhos excessivos dos bundles e melhorar a experiência dos nossos utilizadores.</p>
+<h3 id="desenvolver-novos-produtos-com-uma-abordagem-radicalmente-simples">Desenvolver novos produtos com uma abordagem &ldquo;Radicalmente Simples&rdquo;</h3>
+<p>Este semana li uma nova abordagem para desenvolver uma arquitetura para um produto que pretendemos criar, chamada &ldquo;Radical Simplicity in Technology&rdquo; de Schmidt (2024). Este critica a complexidade que atualmente domina o desenvolvimento de software.</p>
+<p>Em suma esta abordagem implica usar o menor número possível de componentes e reutilizar tecnologias para múltiplos propósitos, facilitando o onboarding de novos desenvolvedores e aumentando a sua produtividade.
+Schmidt sugere que as startups adotem esta abordagem para entregarem funcionalidades mais rápidamente, pois a verdadeira satisfação no desenvolvimento vem de resolver problemas profundos e não de usar novas tecnologias. A &ldquo;Radical Simplicity&rdquo; permite focar em desafios reais, melhorando a qualidade do produto final e a experiência do usuário.</p>
+<p>Concordo esta abordagem é benéfica para quando queremos lançar um novo produto e validá-lo o mais rapidamente possivel no mercado, pois em ultima instância são os usuários que decidem se o nosso produto fica ou não no mercado.
+Sendo assim, para lançar novos produtos, esta abordagem permite um desenvolvimento mais rápido e eficiente, ajudando a validar a solução no mercado o mais rápidamente possivel ao permitir que as equipas de desenvolvimento implementem uma solução simples que se foque principalmente na lógica do negócio.</p>
+<p>No entanto, para empresas que já estão consolidadas no mercado, essa abordagem pode ser menos adequada. Nessas situações, poderemos estimar à priori uma base de usuários, e a escalabilidade pode-se tornar uma necessidade que deverá ser considerada. Esta escalabilidade introduz complexidade no desenvolvimento ao adicionar novos componentes e técnologias, e também mais custos de operação da infraestrutura.
+Por estas razões a preocupação em desenvolver uma solução escalável, e por consquencia mais complexa, deve ser introduzida apenas quando absolutamente necessária.</p>
+<p>No fundo a minha opinião vai em linha com o autor do post. Se estivermos a lançar um novo produto no mercado devemos optar por uma arquitetura de desenvolvimento simples para chegar rapidamente ao mercado para validar o nosso produto. Se o nosso produto já tiver sido validado devemos implementar escalabilidade mas só quando estritamente necessário pois isto implicará complexidade e custos de operação adicionais.</p>
+<h3 id="chave-de-administrador-do-repositório-oficial-do-python-foi-encontrada-num-binário">Chave de administrador do repositório oficial do Python foi encontrada num binário</h3>
+<p>Esta semana, a empresa JFrog, ao analisar o código binário de Python, descobriu uma chave de autorização de administrador para o repositório oficial de GitHub de Python (JFrog, 2024). Embora esta chave não estivesse diretamente presente no código-fonte, foi encontrada no código compilado. Esta descoberta destaca como um simples erro humano pode levar a falhas de segurança graves. Atualmente, uma grande parte do software mundial corre em Python, e se um agente malicioso tivesse descoberto esta chave, as consequências poderiam ser catastróficas. Com esta chave, um invasor poderia injetar código malicioso no repositório oficial de Python, que seria posteriormente incluído nas novas versões do Python descarregadas por utilizadores em todo o mundo.</p>
+<p>Este incidente deve alertar-nos para a importância da deteção de chaves de autorização não apenas no código-fonte, mas também nos binários. A falha humana é comum e pode levar a consequências desastrosas caso seja explorada por agentes maliciosos. Portanto, é crucial adotar medidas de segurança robustas que incluam a verificação tanto do código-fonte quanto dos binários que serão distribuidos para os nossos utilizadores.</p>
+<h3 id="a-relação-amoródio-com-css">A Relação Amor/Ódio com CSS</h3>
+<p>O CSS frequentemente desperta opiniões diversas entre os desenvolvedores. Alguns consideram a escrita de CSS entediante, outros utilizam-no apenas por necessidade de renderizar algo visualmente atrativo, e poucos realmente o adoram.</p>
+<p>Recentemente discutimos internamente um artigo de Li (2024) que realça as vantagens do CSS. Uma das principais vantagens apresentadas é a capacidade de ver as mudanças efetuadas renderizadas em segundos. Isto permite um desenvolvimento incremental rápido da aplicação. Este ciclo de feedback contínuo uma das maiores vantagens do CSS, facilitando ajustes e melhorias imediatas.</p>
+<p>Apesar disto o CSS é uma linguagem vasta e complexa, com uma ampla gama de palavras-chave, propriedades e valores. Quando trabalhamos em aplicações de grande escala, esta complexidade pode ser exacerbada. Gerir esta complexidade para garantir consistência no design e evitar conflitos pode-se tornar uma tarefa árdua.</p>
+<p>No entanto, considero que o CSS é uma linguagem geralmente menosprezada pelos desenvolvedores. Consequentemente, muitos não dedicam o tempo necessário para a aprender adequadamente. Isto resulta em frustrações, pois os desenvolvedores não conseguem obter os resultados desejados com a rapidez esperada.</p>
+<p>Contudo, como qualquer linguagem, quanto mais tempo dedicamos a aprender CSS, mais sentido ela faz. Com o tempo, começamos a iterar rapidamente interfaces em CSS que não seriam possíveis sem esta linguagem de estilo universal para a Web. A dedicação ao estudo do CSS revela o seu verdadeiro potencial, transformando a frustração inicial numa ferramenta poderosa para a criação de experiências visuais ricas e consistentes na web.</p>
+<p>Referências:</p>
+<ol>
+<li>JFrog. (2024, July 17). Leaked PyPI Secret Token Revealed in Binary Preventing Supply Chain Attack. JFrog. <a href="https://jfrog.com/blog/leaked-pypi-secret-token-revealed-in-binary-preventing-suppy-chain-attack/">https://jfrog.com/blog/leaked-pypi-secret-token-revealed-in-binary-preventing-suppy-chain-attack/</a></li>
+<li>Mursal. (2024, July 20). What&rsquo;s new in web dev this month. DEV Community. <a href="https://dev.to/mursalfk/whats-new-in-web-dev-this-month-1al8">https://dev.to/mursalfk/whats-new-in-web-dev-this-month-1al8</a></li>
+<li>Li, M. (2024, July 19). 3 Reasons I Love CSS. Atomic Object. <a href="https://spin.atomicobject.com/3-reasons-i-love-css/?ref=dailydev">https://spin.atomicobject.com/3-reasons-i-love-css/?ref=dailydev</a></li>
+<li>Prokopov, N. (2024, July 18). JavaScript Bloat. <a href="https://tonsky.me/blog/js-bloat/">https://tonsky.me/blog/js-bloat/</a></li>
+<li>Schmidt, S. (2024). Radical Simplicity. <a href="https://www.radicalsimpli.city/">https://www.radicalsimpli.city/</a></li>
+<li>Siddiqui, S. (2022, July 21). Which for-loop is the fastest in JavaScript? DEV Community. <a href="https://dev.to/siddiqus/which-for-loop-is-the-fastest-in-javascript-4hdf">https://dev.to/siddiqus/which-for-loop-is-the-fastest-in-javascript-4hdf</a></li>
+<li>Faishal, M. (2023, July 22). Benchmarking for, while, for&hellip;of, and array.forEach using performance.now. DEV Community. <a href="https://dev.to/maafaishal/benchmarking-for-while-forof-and-arrayforeach-using-performancenow-1jjg">https://dev.to/maafaishal/benchmarking-for-while-forof-and-arrayforeach-using-performancenow-1jjg</a></li>
+</ol>
+</div></article>
+<footer class="py:24">
+    <div class="f:fade-30 f:14 mb:8"></div>
+    <div class="f:fade-60 f:12">Theme <a class="f:bold" href="https://github.com/serkodev/holy" _target="_blank">Holy</a></div>
+</footer></div>
+    </div>
+</body>
+
+</html>

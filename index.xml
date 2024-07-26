@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Curiosity Kills Boredom</title>
-    <link>https://devblog/</link>
+    <link>https://alexandresanchograca.github.io/devblog/</link>
     <description>Recent content on Curiosity Kills Boredom</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Nov 2023 12:09:57 +0000</lastBuildDate>
-    <atom:link href="https://devblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jul 2024 18:35:02 +0000</lastBuildDate>
+    <atom:link href="https://alexandresanchograca.github.io/devblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevCafe Tech Weekly</title>
+      <link>https://alexandresanchograca.github.io/devblog/post/devcafe/</link>
+      <pubDate>Sat, 20 Jul 2024 18:35:02 +0000</pubDate>
+      <guid>https://alexandresanchograca.github.io/devblog/post/devcafe/</guid>
+      <description>DevCafe Weekly Nova funcionalidade adicionada aos Sets de Javascript Recentemente, o Javascript introduziu novos métodos para objetos do tipo Set (Mursal, 2024). Estes novos métodos poderão substituir algumas bibliotecas anteriormente utilizadas para o mesmo propósito. Esta evolução é vantajosa, pois além de reduzir a dependência de bibliotecas de terceiros, estas novas funcionalidades são agora suportadas pelos interpretadores de Javascript dos principais navegadores. Estes métodos também podem proporcionar ganhos significativos de desempenho em comparação com a utilização de bibliotecas externas para o mesmo efeito, uma vez que o utilizador não precisará de descarregar código adicional para realizar estas operações, visto que passam a estar nativamente presentes no seu navegador.</description>
+    </item>
     <item>
       <title>Process memory manipulation in OSX</title>
-      <link>https://devblog/post/osxmemorymanipulation/</link>
+      <link>https://alexandresanchograca.github.io/devblog/post/osxmemorymanipulation/</link>
       <pubDate>Sun, 05 Nov 2023 12:09:57 +0000</pubDate>
-      <guid>https://devblog/post/osxmemorymanipulation/</guid>
+      <guid>https://alexandresanchograca.github.io/devblog/post/osxmemorymanipulation/</guid>
       <description>Cool cat for inspiration :) So&amp;hellip; here we go!
 So the objective is to read memory from a process and then modify it. Pretty simple right? I will use C++ for this because it offers many of the low level capabilities that we will need to do this but I am sure you can use your preffered language too.
 Well&amp;hellip; if we want to read memory from a process then we need to have a process running!</description>
