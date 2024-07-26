@@ -16,6 +16,16 @@
       <description>DevCafe Weekly Nova funcionalidade adicionada aos Sets de Javascript Recentemente, o Javascript introduziu novos métodos para objetos do tipo Set (Mursal, 2024). Estes novos métodos poderão substituir algumas bibliotecas anteriormente utilizadas para o mesmo propósito. Esta evolução é vantajosa, pois além de reduzir a dependência de bibliotecas de terceiros, estas novas funcionalidades são agora suportadas pelos interpretadores de Javascript dos principais navegadores. Estes métodos também podem proporcionar ganhos significativos de desempenho em comparação com a utilização de bibliotecas externas para o mesmo efeito, uma vez que o utilizador não precisará de descarregar código adicional para realizar estas operações, visto que passam a estar nativamente presentes no seu navegador.</description>
     </item>
     <item>
+      <title>Hacking a Java Game in OSX</title>
+      <link>https://devblog/post/javagamehack/</link>
+      <pubDate>Tue, 07 Nov 2023 18:35:02 +0000</pubDate>
+      <guid>https://devblog/post/javagamehack/</guid>
+      <description>Hi!
+Recently I adquired a Macbook, so my interest in memory manipulation in OSX obviouvsly spiked.
+Today I will try to hack a game, not any game, but a game that was made by me in Java. This doesn&amp;rsquo;t mean we will use Java for memory manipulation, we will use the superior language obviously. Do i need to say it? Yes, it&amp;rsquo;s C++.
+As a wise man once said, Java is Build once, run everywhere, C++ is build once debug everywhere.</description>
+    </item>
+    <item>
       <title>Process memory manipulation in OSX</title>
       <link>https://alexandresanchograca.github.io/devblog/post/osxmemorymanipulation/</link>
       <pubDate>Sun, 05 Nov 2023 12:09:57 +0000</pubDate>
