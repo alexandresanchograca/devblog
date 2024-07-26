@@ -38,7 +38,7 @@ Well&hellip; if we want to read memory from a process then we need to have a pro
         align-items:center
     ">
         <div>
-            <a href="/" class="mr-3 font:extralight">
+            <a href="/devblog" class="mr-3 font:extralight">
               
               Curiosity Kills Boredom
               
@@ -98,7 +98,7 @@ Well&hellip; if we want to read memory from a process then we need to have a pro
     _:where(a,mark){text-underline-offset:3}
     _:where(hr){h:2;_bg:fade-10;_bg:fade-70@dark;_my:3em}
 "><p>Cool cat for inspiration :)
-<img src="/images/test.jpeg" alt="image alt text"></p>
+<img src="/post/osxmemorymanipulation/test.jpeg" alt="image alt text"></p>
 <p>So&hellip; here we go!</p>
 <p>So the objective is to read memory from a process and then modify it. Pretty
 simple right?
@@ -144,12 +144,12 @@ running! For this purpose let&rsquo;s create a simple program that will be our t
 want to read memory from, commonly known as PID.
 The easy way in OSX to do this is to go to your Activity Monitor, there you
 will find something like this:
-<img src="/images/activitymonitor.png" alt="pidactivity"></p>
+<img src="/post/osxmemorymanipulation/activitymonitor.png" alt="pidactivity"></p>
 <p>Now let&rsquo;s find out how to get the PID with c++, we don&rsquo;t want to use the
 Activity Monitor for that, we like to program goddamit!</p>
 <p>We can use the terminal to list all processes and their Pid using:
 ps -A -o pid,comm</p>
-<p><img src="/images/pidCommand.png" alt="pscommand"></p>
+<p><img src="/post/osxmemorymanipulation/pidCommand.png" alt="pscommand"></p>
 <p>Hmm&hellip; So we can execute the terminal command in our program and get the
 target&rsquo;s pid!</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">getProcessPid</span>(std<span style="color:#f92672">::</span>string processName){
@@ -235,7 +235,7 @@ specified.</p>
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Sounds about right!
 Let&rsquo;s check the output!</p>
-<p><img src="/images/output.png" alt="output"></p>
+<p><img src="/post/osxmemorymanipulation/output.png" alt="output"></p>
 <p>Good info here:</p>
 <p><a href="https://github.com/attilathedud/macos_task_for_pid">https://github.com/attilathedud/macos_task_for_pid</a></p>
 <p><a href="https://www.spaceflint.com/?p=150">https://www.spaceflint.com/?p=150</a></p>
