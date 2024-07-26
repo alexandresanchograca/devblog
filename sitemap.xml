@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://devblog/</loc>
-    <lastmod>2023-11-07T18:35:02+00:00</lastmod>
+    <loc>https://alexandresanchograca.github.io/devblog/</loc>
+    <lastmod>2024-07-20T18:35:02+00:00</lastmod>
   </url><url>
-    <loc>https://devblog/post/javagamehack/</loc>
-    <lastmod>2023-11-07T18:35:02+00:00</lastmod>
+    <loc>https://alexandresanchograca.github.io/devblog/post/devcafe/</loc>
+    <lastmod>2024-07-20T18:35:02+00:00</lastmod>
   </url><url>
-    <loc>https://devblog/post/</loc>
-    <lastmod>2023-11-07T18:35:02+00:00</lastmod>
+    <loc>https://alexandresanchograca.github.io/devblog/post/</loc>
+    <lastmod>2024-07-20T18:35:02+00:00</lastmod>
   </url><url>
-    <loc>https://devblog/post/osxmemorymanipulation/</loc>
+    <loc>https://alexandresanchograca.github.io/devblog/post/osxmemorymanipulation/</loc>
     <lastmod>2023-11-05T12:09:57+00:00</lastmod>
   </url><url>
-    <loc>https://devblog/categories/</loc>
+    <loc>https://alexandresanchograca.github.io/devblog/categories/</loc>
   </url><url>
-    <loc>https://devblog/tags/</loc>
+    <loc>https://alexandresanchograca.github.io/devblog/tags/</loc>
   </url>
 </urlset>
